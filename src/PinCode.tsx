@@ -12,13 +12,13 @@ import {
   StyleSheet,
   Text,
   TextStyle,
-  TouchableHighlight,
   Vibration,
   View,
   ViewStyle
 } from "react-native";
 import { Col, Row, Grid } from "react-native-easy-grid";
 import Icon from "react-native-vector-icons/MaterialIcons";
+import { TouchableHighlight } from 'react-native-gesture-handler';
 
 /**
  * Pin Code Component
