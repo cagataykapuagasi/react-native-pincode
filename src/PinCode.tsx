@@ -251,6 +251,7 @@ class PinCode extends React.PureComponent<IProps, IState> {
         }}>
         {({ opacity }: any) => (
           <TouchableHighlight
+            delayPressIn={0}
             style={[
               styles.buttonCircle,
               { backgroundColor: this.props.colorCircleButtons },
@@ -450,6 +451,7 @@ class PinCode extends React.PureComponent<IProps, IState> {
   renderButtonDelete = (opacity: number) => {
     return (
       <TouchableHighlight
+        delayPressIn={0}
         activeOpacity={1}
         disabled={this.state.password.length === 0}
         underlayColor="transparent"
